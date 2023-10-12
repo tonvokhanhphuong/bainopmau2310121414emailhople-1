@@ -36,7 +36,6 @@ get_name_in_email([None, 'abb#ccc'])                      | ['ERROR invaid email
 def get_name_in_email(email_list):
 
   def hople(email):
-    #TODO use regex
     if not email:    return False
     if '@' in email: return True
     return False
